@@ -32,13 +32,13 @@ body {
     
 }
 html {
-  background: radial-gradient(circle, black, black 50%, red 50%,  #1a1a1a);
+background: radial-gradient(circle, black, black 50%, red 50%,  black);
   background-size:80px 80px;
 }
 div {
   border: 7px solid red;
   border-radius: 11px;
-  width: 500px;
+  width: 1000px;
   margins: 50px;
   padding: 5px;
       }
@@ -46,4 +46,11 @@ h1{
   width: 1000px;
   margins: 50px;
   padding: 5px;
-      }
+}
+#header{
+  background-color: black;
+  margin: 10px;
+  border: 10px solid y;
+  width: 500px;
+   border-radius: 10px;
+}
